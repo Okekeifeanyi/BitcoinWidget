@@ -1,11 +1,28 @@
+/* src/components/BitcoinPriceWidget.css */
+
 .bitcoin-price-widget {
-    max-width: 450px;
-    margin: 0 auto;
-    padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 5px solid #661c06;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: popup 0.5s ease-out;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: move; /* Indicates that the widget can be moved */
+  user-select: none; /* prevents text from been selected while trying to drag */
+}
+
+.bitcoin-price-widget:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.price-display, .input-field, .converter {
+  margin: 10px 0;
+  text-align: center;
+}
