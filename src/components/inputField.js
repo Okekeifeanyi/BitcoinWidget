@@ -1,17 +1,16 @@
 import React from 'react';
+import './bitcoinPriceWidget.css'; 
 
-const InputField = ({ value, onChange }) => (
-  <div>
-    <label>USD Amount:</label>
+const InputField = ({ value, onChange }) => {
+  return (
     <input
       type="number"
+      className="input-field"
+      placeholder="Enter USD Amount"
       value={value}
       onChange={(e) => onChange(e.target.value)}
-      placeholder="Enter USD amount"
-      max="100000000"
-      style={{ width: '100%', padding: '0.5rem', margin: '0.5rem 0' }}
     />
-  </div>
-);
+  );
+};
 
 export default InputField;
