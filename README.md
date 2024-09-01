@@ -38,7 +38,7 @@ Ensure you have the following installed on your local machine:
 
    Running the Project Locally
    To run the app in development mode:
-   **yarn start** or visit (https://bitcoin-widget-dusky.vercel.app/) for the locally hosted version
+   **yarn start** or visit (https://bitcoin-widget-pi.vercel.app/) for the locally hosted version
 
    Open http://localhost:3000 to view it in your browser.
    The page will reload when you make changes.
