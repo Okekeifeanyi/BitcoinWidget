@@ -1,3 +1,58 @@
+# Bitcoin Price Widget
+
+This project is a simple widget that displays the current price of Bitcoin, converts an input amount in USD to BTC, and shows the last updated timestamp. The project is built using [Create React App](https://github.com/facebook/create-react-app).
+
+## Features
+
+- **Real-time Bitcoin Price:** Fetches the latest Bitcoin price using the CoinGecko API.
+- **Currency Conversion:** Converts the input USD amount into Bitcoin.
+- **Input Validation:** Limits the maximum USD input to $100,000,000.
+- **Responsive Design:** The widget is designed with a maximum width of 450 pixels.
+- **Automatic Updates:** Displays the last updated timestamp for the Bitcoin price.
+
+## Getting Started
+
+To get a local copy up and running, follow these steps:
+
+### Prerequisites
+
+Ensure you have the following installed on your local machine:
+
+- [Node.js](https://nodejs.org/)
+- [Yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone <https://github.com/Okekeifeanyi/BitcoinWidget.git>
+
+   ```
+
+2. Navigate to the project Directory from your local machine
+   **cd bitcoinwidget**
+
+3. Install the dependencies
+   **yarn intsall**
+
+   Running the Project Locally
+   To run the app in development mode:
+   **yarn start** or visit (https://bitcoin-widget-dusky.vercel.app/) for the locally hosted version
+
+   Open http://localhost:3000 to view it in your browser.
+   The page will reload when you make changes.
+   You may also see any lint errors in the console.
+
+   Ejecting the Project
+   If you need full control over the configuration: **yarn eject**
+   Note: This is a one-way operation. Once you eject, you can't go back! This command will copy all the configuration files and dependencies into your project, giving you full control.
+
+Future Enhancements
+Add historical data visualization for Bitcoin prices.
+Implement a dark mode for the widget.
+Provide localization options for different currencies.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,4 +123,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # BitcoinWidget

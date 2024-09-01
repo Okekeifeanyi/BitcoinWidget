@@ -1,5 +1,6 @@
 import React from 'react';
 
+// PriceDisplay Component: Displays the current Bitcoin price/last updated timestamp
 const PriceDisplay = ({ price, timestamp }) => {
   return (
     <div>
